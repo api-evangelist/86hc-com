@@ -66,7 +66,7 @@
 
 恒诚是一家提供香港公司注册、董事股东查询、商业尽职调查及相关法定文件调阅服务的平台。通过其网站，用户可以在线进行公司设立、变更、年报提交、银行开户、司法诉讼查询等业务，支持多语言界面并提供快速电子交付。平台聚合香港公司注册处、商业登记署及法院等官方数据，帮助金融机构和企业进行合规审查和风险评估。服务覆盖公司全生命周期管理，提供专业顾问支持，致力于提升企业合规效率和信息透明度。
 
-**Areas:** HongKong · BusinessIntelligence · DueDiligence · CorporateServices · Compliance
+**Areas:** Hong Kong · Business Intelligence · Due Diligence · Corporate Services · Compliance
 
 ## 恒诚 on APIs.io
 
@@ -80,11 +80,17 @@ Everything profiled for 恒诚 is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [86hc-com-mcp.yml](https://apis.io/servers/86hc-com/86hc-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [86Hc Com Agentic Access](https://apis.io/agentic-access/86hc-com/86hc-com-agentic-access/)
+- [恒诚 Agentic Access](https://apis.io/agentic-access/86hc-com/86hc-com-agentic-access/)
 
 #### Governance rules (1)
 
@@ -96,15 +102,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [86Hc Com Authentication](https://apis.io/security/86hc-com/86hc-com-authentication/)
-- [86Hc Com Domain Security](https://apis.io/security/86hc-com/86hc-com-domain-security/)
-- [86Hc Com Vulnerability Disclosure](https://apis.io/security/86hc-com/86hc-com-vulnerability-disclosure/)
+- [恒诚 Authentication](https://apis.io/security/86hc-com/86hc-com-authentication/)
+- [恒诚 Domain Security](https://apis.io/security/86hc-com/86hc-com-domain-security/)
+- [恒诚 Vulnerability Disclosure](https://apis.io/security/86hc-com/86hc-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [86Hc Com Plans Pricing](https://apis.io/plans/86hc-com/86hc-com-plans-pricing/)
+- [恒诚 Plans Pricing](https://apis.io/plans/86hc-com/86hc-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -118,25 +124,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 43.7** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 40.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
+| Discoverability | 73.3 |
 | Contract quality | 43.5 |
-| Contract governance | 65.5 |
-| Operational transparency | 10.5 |
+| Contract governance | 18.2 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 18.3 |
-| Access clarity | 60.0 |
+| Access clarity | 66.0 |
 
-**Agent readiness 31.2** — agent-ready
+**Agent readiness 27.9** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | platform (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -144,7 +150,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
@@ -154,6 +160,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
 
